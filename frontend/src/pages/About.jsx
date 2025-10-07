@@ -1,5 +1,5 @@
 import React from "react";
-import devImage from "../assets/dev.jpg";
+import devImage from "../assets/dev1.jpg";
 import "../styles.css";
 
 export default function About() {
@@ -11,7 +11,7 @@ export default function About() {
         <div className="dev-info">
           <h2>Chetan Desale</h2>
           <p>Full Stack Developer | React, Node.js, MongoDB</p>
-          <p>Email: chetan@example.com</p>
+          <p>Email: chetan@gmail.com</p>
           <p>Passionate about building innovative web applications.</p>
         </div>
       </div>
