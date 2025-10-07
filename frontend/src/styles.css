@@ -90,3 +90,62 @@ footer{ margin-top:20px; color:var(--muted); font-size:13px; }
 .dev-info p {
   margin: 4px 0;
 }
+
+
+
+@media (max-width: 1024px) {
+  .page-content {
+    margin-left: 200px;
+  }
+  .sidebar {
+    width: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .sidebar h2 {
+    display: none; /* hide title on mobile */
+  }
+
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .weather-card, .about-page .about-card {
+    width: 100%;
+  }
+
+  .forecast-card {
+    width: 80px;
+  }
+
+  .weather-card .weather-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .forecast-card {
+    width: 70px;
+  }
+
+  .weather-card .temp {
+    font-size: 28px;
+  }
+}
